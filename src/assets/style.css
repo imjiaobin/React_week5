@@ -31,3 +31,7 @@ img {
 .images {
   height: 150px;
 }
+
+.btn-detail{
+  max-width:30%;
+}

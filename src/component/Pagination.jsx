@@ -28,7 +28,7 @@ function Pagination({pagination, onChangePage}) {
             className="page-item"
             onClick={ e=> {hanndlePageClick(e, pagination.current_page +1 )} }
         >
-          <a className={`page-link ${ !pagination.has_pre && 'disabled' }`} href="#" aria-label="Next">
+          <a className={`page-link ${ !pagination.has_next && 'disabled' }`} href="#" aria-label="Next">
             <span aria-hidden="true">&raquo;</span>
           </a>
         </li>
